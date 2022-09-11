@@ -11,5 +11,6 @@ public class Main {
 
         ShoppingCart cart = context.getBean(ShoppingCart.class);
         cart.checkout("CANCELED");
+        cart.quantity();
     }
 }

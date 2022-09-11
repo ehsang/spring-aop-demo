@@ -10,7 +10,12 @@ public class ShoppingCart {
     //Logging --> This is an aspect
     //Authentication & Authorization --> This is an aspect
     //Sanitize the data --> This is an aspect
-    public void checkout(String status){
+    public void checkout(String status) {
         System.out.println("checkout method from shoppingcart called");
+
+    }
+
+    public int quantity(){
+        return 2;
     }
 }
